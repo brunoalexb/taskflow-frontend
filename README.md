@@ -1,59 +1,97 @@
-# Taskflow
+Aqui está o README atualizado para o projeto **TaskFlow**, com configurações apropriadas para sua aplicação:
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+---
 
-## Development server
+# TaskFlow - Frontend
 
-To start a local development server, run:
+Este repositório contém o front-end da aplicação **TaskFlow**, uma plataforma para organização e gerenciamento de tarefas. O front-end foi desenvolvido com Angular para oferecer uma interface intuitiva e responsiva.
 
-```bash
-ng serve
-```
+## Visão Geral
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+A tela inicial do **TaskFlow** oferece um design moderno e amigável, com campos para login e cadastro. Abaixo está uma prévia:
 
-## Code scaffolding
+![Tela Inicial](./src/assets/images/tela-inicial.png)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Tecnologias Utilizadas
 
-```bash
-ng generate component component-name
-```
+- **Angular**: Framework utilizado para o desenvolvimento do front-end.
+- **HTML5 e CSS3**: Estrutura e estilo das páginas.
+- **TypeScript**: Linguagem principal usada no Angular.
+- **Bootstrap**: Biblioteca para responsividade e componentes de UI.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Funcionalidades
 
-```bash
-ng generate --help
-```
+- **Tela de Login**: Permite aos usuários acessar suas contas.
+- **Cadastro de Usuário**: Opção para criar uma nova conta.
+- **Design Responsivo**: Experiência otimizada para diferentes dispositivos.
 
-## Building
+## Como Executar o Projeto
 
-To build the project run:
+### Pré-requisitos
 
-```bash
-ng build
-```
+Certifique-se de ter os seguintes softwares instalados:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- [Node.js](https://nodejs.org/) (versão 16 ou superior)
+- [Angular CLI](https://angular.io/cli) (versão 15 ou superior)
 
-## Running unit tests
+### Passo a Passo
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+1. Clone o repositório:
 
-```bash
-ng test
-```
+   ```bash
+   git clone https://github.com/seuusuario/taskflow-frontend.git
+   ```
 
-## Running end-to-end tests
+2. Navegue até a pasta do projeto:
 
-For end-to-end (e2e) testing, run:
+   ```bash
+   cd taskflow-frontend
+   ```
 
-```bash
-ng e2e
-```
+3. Instale as dependências:
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+   ```bash
+   npm install
+   ```
 
-## Additional Resources
+4. Inicie o servidor de desenvolvimento:
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   ng serve
+   ```
+
+5. Acesse o front-end em [http://localhost:4200](http://localhost:4200).
+
+
+## Contribuindo
+
+Contribuições são bem-vindas! Siga os passos abaixo:
+
+1. Faça um fork do repositório.
+2. Crie uma branch para sua feature ou correção de bug:
+
+   ```bash
+   git checkout -b minha-feature
+   ```
+
+3. Faça suas alterações e commit:
+
+   ```bash
+   git commit -m 'Adiciona minha feature'
+   ```
+
+4. Envie para o repositório remoto:
+
+   ```bash
+   git push origin minha-feature
+   ```
+
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para mais informações.
+
+---
+
+Caso precise de ajuda com a configuração do projeto ou outros ajustes, é só avisar! 😊
