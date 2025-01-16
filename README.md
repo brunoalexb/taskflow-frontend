@@ -1,6 +1,3 @@
-Aqui está o README atualizado para o projeto **TaskFlow**, com configurações apropriadas para sua aplicação:
-
----
 
 # TaskFlow - Frontend
 
