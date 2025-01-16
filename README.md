@@ -10,7 +10,7 @@ Este repositório contém o front-end da aplicação **TaskFlow**, uma plataform
 
 A tela inicial do **TaskFlow** oferece um design moderno e amigável, com campos para login e cadastro. Abaixo está uma prévia:
 
-![Tela Inicial](./src/assets/images/tela-inicial.png)
+![Tela Inicial](./public/images/tela-inicial.png)
 
 ## Tecnologias Utilizadas
 
