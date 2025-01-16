@@ -1,0 +1,20 @@
+<main>
+    <section class="form-section">
+        <img src="images/logo.png" alt="Logo escrito TaskFlow"/>
+        <h2>{{ title }}</h2>
+        <ng-content></ng-content>
+        <div class="btn-wrapper">
+            <button class="btn-primary" (click)="submit()">{{ primaryBtnText }}</button>
+            <div class="divider">
+                <div></div>
+                <span>or</span>
+                <div></div>
+            </div>
+            <button class="btn-secondary" (click)="navigate()">{{ secondaryBtnText }}</button>
+        </div>
+    </section>
+    <section class="main-section">
+       <h1>Let's TaskFlow!</h1> 
+       <img src="images/main-illustration.png" alt="Garota, em formato de desenho, usando seu notebook"/>
+    </section>
+</main>
